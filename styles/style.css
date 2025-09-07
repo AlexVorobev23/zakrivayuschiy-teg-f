@@ -256,8 +256,6 @@ dialog::backdrop {
   }
 
   .floppy {
-    background: none;
-    border: none;
     justify-self: center;
     align-self: center;
     width: 28px;

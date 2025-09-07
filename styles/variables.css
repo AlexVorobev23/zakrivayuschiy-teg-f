@@ -4,8 +4,8 @@
   --main-fonts: 'Inter', sans-serif; /*Основной текст */
   --accent-fonts: 'PressStart2P', sans-serif; /* Заголовок */
 
-  --text-weight: 410; /*Inter Основной текст - вес*/
-  --title-weight: 715; /*Inter Заголовок - вес*/
+  --text-weight: 400; /*Inter Основной текст - вес*/
+  --title-weight: 785; /*Inter Заголовок - вес*/
 
   --background-gradient:
     repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
