@@ -1,8 +1,8 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-  --main-fonts: 'Inter', sans-serif; /*Основной текст */
-  --accent-fonts: 'PressStart2P', sans-serif; /* Заголовок */
+  --main-fonts: "Inter", sans-serif; /*Основной текст */
+  --accent-fonts: "PressStart2P", sans-serif; /* Заголовок */
 
   --text-weight: 400; /*Inter Основной текст - вес*/
   --title-weight: 785; /*Inter Заголовок - вес*/
@@ -18,4 +18,10 @@
   --title-size: clamp(14px, 5vw, 23px);
 
   --stroke-color: white;
+
+  --core-color: transparent;
+  --contour-color: black;
+  --main-body-color: transparent;
+  --active-color: red;
+  --sparks-color: red;
 }
