@@ -10,7 +10,7 @@
 
 */
 
-@keyframes scale-heart {
+@keyframes shake-heart {
   0% {
     transform: scale(1);
   }
@@ -22,7 +22,7 @@
   }
 }
 
-@keyframes show-sparks {
+@keyframes open-sparks {
   0% {
     opacity: 0;
   }
