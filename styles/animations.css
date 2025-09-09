@@ -10,7 +10,7 @@
 
 */
 
-@keyframes scale-heart {
+@keyframes shake-heart {
   0% {
     transform: scale(1);
   }
@@ -22,7 +22,7 @@
   }
 }
 
-@keyframes show-sparks {
+@keyframes open-sparks {
   0% {
     opacity: 0;
   }
@@ -35,10 +35,17 @@
 }
 
 .like-icon.is-liked .heart {
-  animation: scale-heart 0.3s ease-in 0.1s 1;
+  animation: shake-heart 0.3s ease-in 0.1s 1;
   transform-origin: center;
 }
 
 .like-icon.is-liked .sparks {
-  animation: show-sparks 0.3s ease-in 0.3s 1;
+  animation: open-sparks 0.3s ease-in 0.3s 1;
 }
+
+
+
+
+
+
+
