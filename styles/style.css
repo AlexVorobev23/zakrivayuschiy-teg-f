@@ -176,8 +176,10 @@
 }
 
 .floppy {
-  background: none;
   border: none;
+  background-color: white;
+  position: relative;
+  z-index: 2;
 }
 
 .button {
@@ -264,6 +266,10 @@ dialog::backdrop {
   transform: translateX(0);
 }
 
+.floppy:hover::before {
+  mix-blend-mode: difference;
+}
+
 .button:focus-visible {
   box-shadow: 2px 2px 0 black;
   transition: 0.3s ease;
@@ -271,7 +277,8 @@ dialog::backdrop {
 
 .card__icon-button:focus-visible,
 .like-icon:focus-visible {
-  box-shadow: 0 0 0 black;
+  outline: 2px solid black;
+  outline-offset: -8px;
 }
 
 .core {
