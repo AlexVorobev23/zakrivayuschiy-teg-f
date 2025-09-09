@@ -181,7 +181,7 @@
 }
 
 .button {
-  background: white;
+  background-color: white;
   border: 2px solid black;
   transition: box-shadow 0.3s ease;
   z-index: 1;
